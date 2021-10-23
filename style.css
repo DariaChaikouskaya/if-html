@@ -12,43 +12,40 @@
     margin: 0 auto;
 }
 
-.offer {
-    height: 570px;
+offer {
+    min-height: 570px;
 }
 
-.offer .header_offer {
+.header_offer {
     margin-top: 120px;
-    font-family: Roboto;
+    font-family: "Roboto";
     font-weight: 500;
     font-size: 40px;
     line-height: 50px;
     color: #383838;
     text-align: center;
-
 }
 
-.offer .offer_divider {
+.offer_divider {
     width: 100px;
     height: 4px;
     background-color: #F5BD41;
-    margin: 0 auto;
-    margin-top: 20px;
 }
 
-.offer .offer_wrapper {
+.offer_wrapper {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
+    padding: 80px 0 120px 0;
 }
 
-.offer .offer_wrapper .offer_item {
+.offer_item {
     width: 300px;
     text-align: center;
 }
 
-.offer .offer_wrapper .offer_item .item_text {
-    font-family: Roboto;
-    font-weight: normal;
+.item_text {
+    font-family: "Roboto";
+    font-weight: 400;
     font-size: 25px;
     line-height: 30px;
     text-align: center;
