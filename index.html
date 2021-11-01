@@ -91,32 +91,32 @@
             </tbody>
         </table>
         <p></p>
-    <form action="" method="get">
+    <form action="/" method="get" name="myForm">
         <fieldset>
             <legend>My first form</legend>
             <div><label for="name">Name</label></div>
-            <div><input id="name" placeholder="Name" required></div>
+            <div><input id="name" name="login" placeholder="Name" required></div>
             <div><label for="email">Email</label></div>
-            <div><input id="email" type="email" required></div>
+            <div><input id="email" name="email" type="email" required></div>
             <div><label for="password">Password</label></div>
-            <div><input id="password" required></div>
+            <div><input id="password" name="password" required></div>
             <div><label>Your programming level</label></div>
-            <div><input type="range" value="1-10"></div>
+            <div><input type="range" value="1-10" name="level"></div>
             <p></p>
             <div><label>What does HTML stand for?</label></div>
             <p></p>
-            <div><input type="checkbox">Hyperlinks and Text Markup Language</div>
-            <div><input type="checkbox">Home Tool Markup Language</div>
-            <div><input type="checkbox">Hyper Text Markup Language</div>
+            <div><input type="checkbox" name="checkbox" value="1">Hyperlinks and Text Markup Language</div>
+            <div><input type="checkbox" name="checkbox" value="2">Home Tool Markup Language</div>
+            <div><input type="checkbox" name="checkbox" value="3">Hyper Text Markup Language</div>
             <p></p>
             <div><label>What does HTML stand for?</label></div>
             <p></p>
-            <div><input name="1" type="radio">Hyper Text Translate Protocol</div>
-            <div><input name="1" type="radio">Hyper Text Transmission Protocol</div>
-            <div><input name="1" type="radio">Hyper Text Transfer Protocol</div>
+            <div><input type="radio" name="radio" value="1">Hyper Text Translate Protocol</div>
+            <div><input type="radio" name="radio" value="2">Hyper Text Transmission Protocol</div>
+            <div><input type="radio" name="radio" value="3">Hyper Text Transfer Protocol</div>
             <p></p>
             <div><label>Comment</label></div>
-            <textarea maxlength="500">Comment</textarea>
+            <textarea maxlength="500" placeholder="Comment"></textarea>
             <p></p>
             <div><label>What does HTML stand for?</label></div>
             <select>
@@ -125,7 +125,7 @@
                 <option>regtregt</option>
             </select>
             <p></p>
-            <div><button type="submit">Send</button></div>
+            <div><button type="submit" name="submitForm">Send</button></div>
         </fieldset>
     </form>
     </body>
