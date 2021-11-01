@@ -27,6 +27,8 @@ offer {
 }
 
 .offer_divider {
+    margin: 0 auto;
+    margin-top: 20px;
     width: 100px;
     height: 4px;
     background-color: #F5BD41;
